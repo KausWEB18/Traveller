@@ -31,7 +31,7 @@ def get_top_places(latitude, longitude):
     params = {
         'apikey': api_key,
         'radius': 10000,  # Search radius in meters
-        'limit': 15,  # Limit to top 10 places
+        'limit': 15,  # Limit to top 15 places
         'lon': longitude,
         'lat': latitude
     }
